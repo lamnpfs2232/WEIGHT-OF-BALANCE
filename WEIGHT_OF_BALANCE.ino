@@ -1,3 +1,17 @@
+/*
+  Project: WEIGHT OF BALANCE
+  Author: Lam Nguyen
+  Course: Creation & Computation (C&C)
+  Date: September 2026
+
+  Description:
+  Reads analog values from three Velostat pressure sensors and maps them 
+  to drive three corresponding LED channels.
+
+  Attribution:
+  Adapted from OCAD University C&C course code example (twoSensorMap.ino).
+*/
+
 // Sensor variables
 int sensor1Pin = A1; // Left Wall Sensor
 int sensor1Value;
